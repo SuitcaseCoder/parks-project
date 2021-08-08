@@ -2,6 +2,9 @@
 
 A mini project to practice DOM manipulation and making API Calls
 
+## Reference This often:
+ - [NPS API Guide](https://www.nps.gov/subjects/developer/guides.htm)
+
 ## Getting Started
 
  - Get API key from [National Park Service Developer Resources](https://www.nps.gov/subjects/developer/get-started.htm)
@@ -17,3 +20,5 @@ A mini project to practice DOM manipulation and making API Calls
    - ```javascript
      import PARKS_API_KEY from "./apikey.js";
       ```
+     
+ 

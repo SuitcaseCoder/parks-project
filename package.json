@@ -1,0 +1,19 @@
+{
+  "name": "parks-project",
+  "version": "1.0.0",
+  "description": "parks api project",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuitcaseCoder/parks-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuitcaseCoder/parks-project/issues"
+  },
+  "homepage": "https://github.com/SuitcaseCoder/parks-project#readme"
+}
