@@ -1,4 +1,4 @@
-import PARKS_API_KEY from "./apikey.js";
+import PARKS_API_KEY from "./apikey.mjs";
 
 console.log('huh');
 
