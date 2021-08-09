@@ -2,7 +2,7 @@
   "name": "parks-project",
   "version": "1.0.0",
   "description": "parks api project",
-  "main": "main.js",
+  "main": "main.mjs",
   "scripts": {
     "test": "npm start"
   },
@@ -17,5 +17,8 @@
   },
   "homepage": "https://github.com/SuitcaseCoder/parks-project#readme",
   "type": "module",
-  "Permissions-Policy": "interest-cohort=()"
+  "Permissions-Policy": "interest-cohort=()",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
 }

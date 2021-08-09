@@ -35,7 +35,7 @@ function displayPark(parkGenerated){
     let parkDesc = parkGenerated.description;
     let images = parkGenerated.images;
     let imgUrl = images.map(img => {
-         return `<img src="${img.url}" height="150px" class="col"/>`;
+         return `<img src="${img.url}" alt="park-img" height="150px" class="col"/>`;
     });
     $('#park-container').html("");
     $('#park-container').append(`
