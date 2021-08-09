@@ -2,7 +2,7 @@
   "name": "parks-project",
   "version": "1.0.0",
   "description": "parks api project",
-  "main": "main.mjs",
+  "main": "main.js",
   "scripts": {
     "test": "npm start"
   },

@@ -16,7 +16,7 @@ A mini project to practice DOM manipulation and making API Calls
        const PARKS_API_KEY = "PASTE YOUR API KEY HERE";
        export default PARKS_API_KEY; 
         ```
- - In your `main.mjs` file, `import` your `PARKS_API_KEY`
+ - In your `main.js` file, `import` your `PARKS_API_KEY`
    - ```javascript
      import PARKS_API_KEY from "./apikey.mjs";
       ```
