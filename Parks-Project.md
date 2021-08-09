@@ -21,4 +21,4 @@ A mini project to practice DOM manipulation and making API Calls
      import PARKS_API_KEY from "./apikey.js";
       ```
      
- 
+ ## Install node using npm
