@@ -1,4 +1,4 @@
-import parksapikey from "./apikey.js";
+import PARKS_API_KEY from "./apikey.js";
 
 console.log('huh');
 
@@ -11,8 +11,8 @@ function onGenerateClick(){
 }
 
 function callAPI(){
-    console.log('api key: ' + parksapikey);
-    fetch(`https://developer.nps.gov/api/v1/parks?&api_key=${parksapikey}`)
+    console.log('api key: ' + PARKS_API_KEY);
+    fetch(`https://developer.nps.gov/api/v1/parks?&api_key=${PARKS_API_KEY}`)
         .then(response => response.json())
         .then(res => {
             randomizePark(res);
